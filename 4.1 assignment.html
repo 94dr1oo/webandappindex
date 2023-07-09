@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--CCO-11850 Muhammad Abdul Mustafa Qadri-->
+CCO-11850 Muhammad Abdul Mustafa Qadri
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H1>Nested Tables</H1>
+    <table border="1px">
+        <tr style="background-color: aqua;">
+            <th>Header column 1</th>
+            <th>Header column 2</th>
+            <th>Header column 3</th>
+            <th>Header column 4</th>
+        </tr>
+            <tr style="background-color: blueviolet;">
+                <td>Row 2-Item 1</td>
+                <td>Row 2-Item 2</td>
+                <th>Row 2-Nestedtable1</th>
+                <td>Row 2-item4 <br>Asecond line</td>
+            </tr>
+            <tr style="background-color: orange;"><th>Row 2 Nested table 2</th>
+                <td>Row 3-item 2</td>
+                <td>
+                    <table border="1px" style="background-color: chartreuse;">
+                        <tr>
+                            <td colspan="1">Row 1 header</td>
+                            <td>item</td>
+                        </tr>
+                        <tr style="background-color: blueviolet;">
+                            <td colspan="1">Row 2 header</td>
+                            <td>item</td>
+                        </tr>
+                        <tr style="background-color: chocolate;">
+                            <td colspan="1">Row3 header</td>
+                            <td>item</td>
+                        </tr>
+                    </table> </td>
+                   <td Rowspan="5">Row 3-item 3</td>
+            </tr>
+            <tr style="background-color: cyan;">
+                <td>Row 4-item 1</td>
+            <td>Row 4 item 2</td>
+        <td>Row 4-item 3</td>
+    <td></td></tr>
+    <tr style="background-color: burlywood;">
+        <td colspan="4">Row 5 Last row of outer table</td>
+    </tr> </table>
+</body>
+</html>
